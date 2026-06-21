@@ -12,7 +12,8 @@ A fast, secure, and modern DNS changer for Android built with Jetpack Compose.
 ## Screenshots 📱
 *(Add your screenshots here later)*
 
-## Installation 📥
+## Installation(نصب روی گوشی) 📥
+از قسمت [Releases](https://github.com/rstagit/rstadns/releases) برنامه را دانلود و روی گوشی نصب کنید
 You can download the latest version of the app from the [Releases](https://github.com/rstagit/rstadns/releases) section.
 
 1. Download the `app-release.apk`.
@@ -31,4 +32,4 @@ To build the project locally:
 3. Build and run!
 
 ## License 📜
-This project is open-source. See the LICENSE for more details.
+GPL
