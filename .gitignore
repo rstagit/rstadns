@@ -20,3 +20,6 @@ google-services.json
 .idea/
 *.apk
 *.bundle
+google_play_protect_info.txt
+rsta_release.jks
+release.keystore
