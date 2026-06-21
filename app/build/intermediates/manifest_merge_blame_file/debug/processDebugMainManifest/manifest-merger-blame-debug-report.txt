@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rstagit.rstadns"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.rstagit.rstadns.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.rstagit.rstadns.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:11:5-39:19
+24        android:allowBackup="true"
+24-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\605907a26a1e1e0d2cf3adc2185e35dc\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.RstaDns" >
+33-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:17:9-45
+34        <activity
+34-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:19:9-28:20
+35            android:name="com.rstagit.rstadns.ui.MainActivity"
+35-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:20:13-44
+36            android:configChanges="orientation|screenSize|keyboardHidden"
+36-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:23:13-74
+37            android:exported="true"
+37-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:21:13-36
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:22:13-55
+39            <intent-filter>
+39-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:24:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:25:17-69
+40-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <receiver
+46-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:30:9-37:20
+47            android:name="com.rstagit.rstadns.data.service.BootReceiver"
+47-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:31:13-54
+48            android:enabled="true"
+48-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:32:13-35
+49            android:exported="true" >
+49-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:33:13-36
+50            <intent-filter>
+50-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:34:13-36:29
+51                <action android:name="android.intent.action.BOOT_COMPLETED" />
+51-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:35:17-79
+51-->C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app\src\main\AndroidManifest.xml:35:25-76
+52            </intent-filter>
+53        </receiver>
+54
+55        <activity
+55-->[androidx.compose.ui:ui-test-manifest:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\28aad813882cb279bb6d10070b4d7018\transformed\jetified-ui-test-manifest-1.6.2\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.activity.ComponentActivity"
+56-->[androidx.compose.ui:ui-test-manifest:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\28aad813882cb279bb6d10070b4d7018\transformed\jetified-ui-test-manifest-1.6.2\AndroidManifest.xml:24:13-63
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-test-manifest:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\28aad813882cb279bb6d10070b4d7018\transformed\jetified-ui-test-manifest-1.6.2\AndroidManifest.xml:25:13-36
+58        <activity
+58-->[androidx.compose.ui:ui-tooling-android:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\7cbe7c8f30efcb1a715c2f87e33ae44d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.compose.ui.tooling.PreviewActivity"
+59-->[androidx.compose.ui:ui-tooling-android:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\7cbe7c8f30efcb1a715c2f87e33ae44d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-tooling-android:1.6.2] C:\Users\acer\.gradle\caches\9.0.0\transforms\7cbe7c8f30efcb1a715c2f87e33ae44d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.rstagit.rstadns.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\e52fdb15c0ecfb8b0699aad08e9aa0b5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\a30726101a310b44d4daacc31e9f77ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\a30726101a310b44d4daacc31e9f77ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\a30726101a310b44d4daacc31e9f77ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\9.0.0\transforms\df101d933c039f7c74ae868394454ab1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>
