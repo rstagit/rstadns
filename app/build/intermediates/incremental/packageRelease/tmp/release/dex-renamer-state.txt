@@ -1,0 +1,4 @@
+#Sun Jun 21 13:54:00 IRST 2026
+base.0=C\:\\Users\\acer\\Downloads\\RSTA_DNS_Updated\\RSTA_DNS\\RSTA_DNS\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

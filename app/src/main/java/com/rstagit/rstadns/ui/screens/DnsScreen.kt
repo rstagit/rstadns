@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.Add
 import androidx.compose.material.icons.outlined.Home
@@ -128,7 +129,7 @@ private fun BottomNavBar(activeTab: Int, onTabSelected: (Int) -> Unit) {
                 onClick = { onTabSelected(0) }
             )
             BottomNavItem(
-                icon = Icons.Default.List,
+                icon = Icons.AutoMirrored.Filled.List,
                 label = "Servers",
                 selected = activeTab == 1,
                 onClick = { onTabSelected(1) }

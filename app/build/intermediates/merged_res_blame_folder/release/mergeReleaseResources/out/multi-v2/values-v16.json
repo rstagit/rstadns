@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rstagit.rstadns.app-mergeReleaseResources-47:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\9.0.0\\transforms\\605907a26a1e1e0d2cf3adc2185e35dc\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

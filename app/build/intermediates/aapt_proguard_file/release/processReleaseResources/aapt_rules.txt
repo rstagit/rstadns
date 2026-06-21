@@ -1,0 +1,5 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.rstagit.rstadns.data.service.BootReceiver { <init>(); }
+-keep class com.rstagit.rstadns.ui.MainActivity { <init>(); }

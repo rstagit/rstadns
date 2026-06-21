@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rstagit.rstadns.app-mergeReleaseResources-47:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\acer\\Downloads\\RSTA_DNS_Updated\\RSTA_DNS\\RSTA_DNS\\app\\src\\main\\res\\values-v28\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "460"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "453"
+                    }
+                }
+            ]
+        }
+    ]
+}

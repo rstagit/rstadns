@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\acer\Downloads\RSTA_DNS_Updated\RSTA_DNS\RSTA_DNS\app"
+    name=":app"
+    type="APP"
+    maven="RSTA DNS:app:"
+    agpVersion="8.3.0"
+    buildFolder="build"
+    bootClassPath="J:\programs\sdk\platforms\android-34\android.jar;J:\programs\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
